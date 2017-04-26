@@ -1,0 +1,142 @@
+html { 
+  background-image: url(./assets/images/gradient) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body { 
+font-family: Times;
+width: 960px;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 10px 20px;
+  border-top: 4px solid #333;
+  border-bottom: 4px solid #333;
+}
+
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#namebox {
+  width: 250px;
+  margin-left: 50px;
+}
+
+.your_name {
+  background-color: #4C76FF;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+.nav {
+  position: absolute; 
+  right: 0;
+  left: 0;
+  
+}
+
+li {
+  float: right;
+  margin: 5px;
+  padding: 5px;
+}
+.background {
+   position: absolute;
+   z-index: -1;
+}
+
+h2 {
+  color: #4C76FF;
+  padding-top: 20px;
+}
+
+h3 {
+  color: #4C76FF;
+  padding: 5px;
+}
+
+.aboutme {
+  width: 650px;
+  margin-left:50px;
+  padding-top-top: 20px;
+  position: relative;
+  float: left;
+}
+
+.profilepicture {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  width: 620px;
+}
+
+.connect {
+  position: relative;
+  float: right;
+
+  
+}
+
+.clearfix{
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  clear: both;
+  height: 100px;
+  background-color: #6B7F78;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  border-top: 4px solid #4C76FF;
+  
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    color: white;    background-color: #4C76FF;
+
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6B7F78;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
